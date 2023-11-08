@@ -57,7 +57,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 startTimer() async
 {
-  await Future.delayed(const Duration(seconds: 5),(){
+  await Future.delayed(const Duration(seconds: 3),(){
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>  const MyHomePage(title: 'Your Quote')));
   });
 }
